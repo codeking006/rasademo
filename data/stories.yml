@@ -36,11 +36,13 @@ stories:
   - intent: play_my_video
   - action: action_get_url
 
-- story:
+- story: weather
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: wheather
+  - intent: weather
   - slot_was_set:
     - location: chennai
-  - action: action_get_wheater
+    - location: Delhi
+    - location: benguluru
+  - action: action_get_weather

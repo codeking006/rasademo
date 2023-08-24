@@ -103,5 +103,10 @@ nlu:
 - intent: weather
   examples: |
     - how is weather in [chennai](location)
-    - weather in [chennai](location)
+    - weather in [hyderabad](location)
+    - weather in [Delhi](location)
+    - weather in [benguluru](location)
+    - how is weather in [delhi](location)
+    
+
 
