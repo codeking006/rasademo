@@ -4,4 +4,4 @@ rasa-webchat-master/
 venv
 package-lock.json
 package.json
-
+models/
